@@ -1,0 +1,125 @@
+/* Reset all default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container: full screen with flex layout to center content */
+.container {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Root-level CSS variable for theme color */
+:root {
+    --color: rgb(96, 61, 237);
+}
+
+/* Body background color */
+body {
+    background-color: rgb(142, 142, 199);
+}
+
+/* Logo Image size */
+img {
+    width: 35vw;
+    height: 60vh;
+}
+
+/* Main heading styles */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Subheading styles */
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    color: rgb(212, 228, 250);
+}
+
+/* Email input field */
+#email {
+    align-self: center;
+    padding: 20px 50px;
+    border: 2px solid var(--color);
+    background-color: var(--color);
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 50px; /* Rounded input */
+}
+
+/* Email input placeholder styling */
+#email::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Container for form content (right box) */
+.box2 {
+    margin: 40px;
+}
+
+/* Password input field */
+#password {
+    padding: 20px 50px;
+    border-radius: 50px;
+    border: 2px solid var(--color);
+    background-color: var(--color);
+    border: 1px solid white;
+}
+
+/* Password input placeholder styling */
+#password::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* "Forget password" link styling */
+.fp {
+    margin-left: 140px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* Login button styling */
+button {
+    padding: 20px 50px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background-color: var(--color);
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+/* Paragraph text styling */
+p {
+    margin-left: 40px;
+    color: rgb(247, 248, 255);
+}
+
+/* Label text color */
+label {
+    color: white;
+}
+
+/* 
+🟡 Optional/Commented code below:
+
+.mail {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+-- Ye styles agar aap label ko aur stylish banana chahein to use kar sakte hain
+*/
